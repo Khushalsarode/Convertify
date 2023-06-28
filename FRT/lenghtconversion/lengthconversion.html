@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Conversion</title>
+       <link rel="icon" type="images/x-icon" href="https://images-na.ssl-images-amazon.com/images/I/41AUoQd6O0L.png" />
+    <link rel="icon" type="images/x-icon" href="..\FRT\lenghtconversion\len.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylelen.css">
+    <script src="action.js"></script>
+</head>
+   
+<body>
+   <header>
+      <div class="top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style=" background-color: lightgray;">
+        <div class="container">
+          <a class="navbar-brand" href="..\index.html"><img src="https://images-na.ssl-images-amazon.com/images/I/41AUoQd6O0L.png" height="50px" width="50px" alt=""></a>
+          <div class="head"><h5>Unit Conversion Site</h5></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 30%; ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="..\passwordgen\passview.html">Password Generator</a>
+              </li>
+                <a class="nav-link active" aria-current="page" href="..\weightconverter/wightcon.html">Weight</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=".\lengthconversion.html">Length</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="..\currencyconverter/currency.html">Currency</a>
+              </li>     
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="..\Temperature-converter/tempcon.html">Temperature</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+   <P> <center> <h1>Length Converter</h1></center></P></br>
+  
+   <form action="" method="post" id="form-main">
+      <div class="main-one">
+      <p>From: 
+           <select id="lenfrom">
+                  <option selected>feet(ft)</option>
+                  <option>inches(in)</option>
+                  <option>meters(m)</option>
+                  <option>centimeters(cm)</option>
+                  <option>kilometers(km)</option>
+                  <option>yards(yd)</option>
+                  <option>miles</option>
+               </select></br></p>
+               <p> <img src="..\imagepng.png" alt="" height="50px" width="50px" style="align-items:center;" ></br></p>
+    <p>To:
+             <select id="lento">
+                <option selected>feet(ft)</option>
+                  <option>inches(in)</option>
+                  <option>meters(m)</option>
+                  <option>centimeters(cm)</option>
+                  <option>kilometers(km)</option>
+                  <option>yards(yd)</option>
+                  <option>miles</option>
+               </select></br>
+              </p>
+
+   <p>Enter Length:<input type="number" id="lenval" placeholder="0"/></br></p>
+
+    <p>Converted Length:<input type="number" id="conlen" placeholder="0" disabled="disabled"/></br></p>
+
+    <p>
+    <button type="button" onclick="convert()" >Convert</button>
+    <button type="button" onclick="reset()" >Reset</button>
+  </p>
+   </div>
+   
+</form>
+<div class="down">
+    <footer class="page-footer font-small blue fixed-bottom">
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href=""> khushalSarode</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+    </div>
+</body>
+</html>

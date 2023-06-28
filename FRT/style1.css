@@ -1,0 +1,23 @@
+h6{
+    text-align: left;
+}
+
+div.down{
+    font-size: medium;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: normal;
+    background-color: lightslategray;
+}
+body{
+    background-color: lightblue;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: overline;
+  }
