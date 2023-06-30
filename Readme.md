@@ -59,17 +59,21 @@ Microsoft Azure was used as the cloud platform for hosting the Convertify applic
 Follow these steps to deploy Convertify on Azure:
 
 1. Clone the repository: [Convertify Repository]
-```https://github.com/Khushalsarode/Convertify.git```
+```
+https://github.com/Khushalsarode/Convertify.git
+```
 
-2. Create a container registry in Azure.
+3. Create a container registry in Azure.
 
-3. Build and tag the Docker image, and push it to the container registry.
+4. Build and tag the Docker image, and push it to the container registry.
 
    ```bash
    az acr build --image khushalsarode/webcontainerfrt:v1 --registry unitconverter --file Dockerfile .
    ```
 - command for Docker
-   ``` az acr build --image <username>/<imagename>:tag --registry <acrname> --file <Dockerfile/pathtofile> .  ```
+   ```
+  az acr build --image <username>/<imagename>:tag --registry <acrname> --file <Dockerfile/pathtofile> .
+   ```
 
 4. Create a web app service in Azure and connect it to the container in the container registry.
 
