@@ -16,13 +16,13 @@ Convertify is a web-based 2.0 application that provides units conversion and pas
 
 ## Units Conversion
 
-1. Length Converter: Supports conversion between miles, yards (yd), kilometers (km), centimeters (cm), meters (m), inches (in), and feet (ft). The input is validated to ensure the length is not negative, and a prompt appears if a negative length is entered.
+1. **Length Converter:** Supports conversion between miles, yards (yd), kilometers (km), centimeters (cm), meters (m), inches (in), and feet (ft). The input is validated to ensure the length is not negative, and a prompt appears if a negative length is entered.
 
-2. Weight Converter: Enables conversion between pounds, ounces, kilograms, grams, tons, stones, and milligrams. Similar to the length converter, negative weight inputs trigger a prompt indicating that weight cannot be negative.
+2. **Weight Converter:** Enables conversion between pounds, ounces, kilograms, grams, tons, stones, and milligrams. Similar to the length converter, negative weight inputs trigger a prompt indicating that weight cannot be negative.
 
-3. Currency Converter: Utilizes an API to convert between different currencies. Users can select the source and target currencies, enter the amount to convert, and view the conversion result. Negative amounts are not allowed, and a prompt notifies the user if a negative value is entered.
+3. **Currency Converter:** Utilizes an API to convert between different currencies. Users can select the source and target currencies, enter the amount to convert, and view the conversion result. Negative amounts are not allowed, and a prompt notifies the user if a negative value is entered.
 
-4. Temperature Converter: Supports conversion between Fahrenheit (°F), Celsius (°C), and Kelvin (K). Fahrenheit and Celsius temperatures can be negative, but Kelvin represents an absolute temperature, so a prompt appears if a negative Kelvin value is entered.
+4. **Temperature Converter:** Supports conversion between Fahrenheit (°F), Celsius (°C), and Kelvin (K). Fahrenheit and Celsius temperatures can be negative, but Kelvin represents an absolute temperature, so a prompt appears if a negative Kelvin value is entered.
 
 ## Password Generator
 
@@ -68,6 +68,7 @@ Follow these steps to deploy Convertify on Azure:
    ```bash
    az acr build --image khushalsarode/webcontainerfrt:v1 --registry unitconverter --file Dockerfile .
    ```
+- command for Docker
    ``` az acr build --image <username>/<imagename>:tag --registry <acrname> --file <Dockerfile/pathtofile> .  ```
 
 4. Create a web app service in Azure and connect it to the container in the container registry.
