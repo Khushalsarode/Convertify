@@ -3,7 +3,7 @@
 Convertify empowers you to convert units quickly and accurately.
 
 ![Convertify Home Screen](screenshotFRT.jpg)
-![Azure Portal Services](servicestacks.jpg)
+![Azure Portal Services](servicestack.jpg)
 
 ## Description
 
